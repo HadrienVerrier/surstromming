@@ -1,0 +1,16 @@
+{
+    "config": {
+        "active_clock": true,
+        "beats": 4,
+        "boot_superdirt": true,
+        "bpm": 135,
+        "debug": true,
+        "deferred_scheduling": true,
+        "midi": "Sardine",
+        "parameters": [],
+        "ppqn": 24,
+        "superdirt_config_path": "/root/.local/share/Sardine/default_superdirt.scd",
+        "user_config_path": "/root/.local/share/Sardine/user_configuration.py",
+        "verbose_superdirt": true
+    }
+}

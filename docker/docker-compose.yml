@@ -1,0 +1,9 @@
+services:
+  sardine:
+    image: sardine
+    container_name: sardine
+    stdin_open: true
+    tty: true
+    volumes:
+      - ../sardine-config/:/root/.local/share/Sardine
+      - ../projects/:/app/projects/
