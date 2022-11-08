@@ -9,6 +9,8 @@ Actually in Work In Progress State, feel free to test and add code inside it.
 You can build your own docker-compose file and system, and only use the DockerFile image (i'll push on docker hub my own image). 
 Also, you can clone this repository and simple do a `make install` to create the container.
 
+My image in [docker hub](https://hub.docker.com/repository/docker/hadv83/surstromming)
+
 ## Use 
 
 At this day, you can just boot Sardine and Supercollider, I have to tweak the Python Interpreter to be able to use Sardine/SuperCollider. 
