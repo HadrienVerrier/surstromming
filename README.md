@@ -6,7 +6,7 @@ Actually in Work In Progress State, feel free to test and add code inside it.
 
 ## Installation
 
-You can build your own docker-compose file and system, and only use the DockerFile image (i'll push on docker hub my own image). 
+You can build your own docker-compose file and system, and only use the [DockerFile image](https://hub.docker.com/repository/docker/hadv83/surstromming). 
 Also, you can clone this repository and simple do a `make install` to create the container.
 
 My image in [docker hub](https://hub.docker.com/repository/docker/hadv83/surstromming)
