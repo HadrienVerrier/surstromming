@@ -1,7 +1,7 @@
 services:
-  sardine:
-    image: sardine
-    container_name: sardine
+  surstromming:
+    image: surstromming
+    container_name: surstromming
     stdin_open: true
     tty: true
     volumes:

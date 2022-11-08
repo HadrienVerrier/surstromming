@@ -1,5 +1,7 @@
 FROM python:3.10-slim
 
+LABEL maintainer="Hadrien VERRIER"
+
 # Set the working directory to /app
 WORKDIR /app
 
@@ -28,6 +30,9 @@ RUN apt-get update && DEBIAN_FRONTEND='noninteractive' apt-get install supercoll
 # Enable auto-boot
 RUN sardine-config --boot_superdirt True
 RUN sardine-config --verbose_superdirt True
+
+# install neovim
+RUN apt-get update && apt-get install neovim python3-neovim -y
 
 # launch sardine
 CMD ["python3", "-m", "fishery"]
