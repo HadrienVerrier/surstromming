@@ -1,6 +1,6 @@
 services:
   surstromming:
-    image: surstromming
+    image: hadv83/surstromming
     container_name: surstromming
     stdin_open: true
     tty: true
